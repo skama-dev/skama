@@ -1,0 +1,37 @@
+name: Feature request
+description: Suggest a new feature or an improvement to Skama.
+labels: ["enhancement"]
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement. Skama is in early development, so the design can still change. Describing the problem you want to solve helps more than proposing a specific solution.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to do, and why is it hard or impossible with Skama today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How you would like Skama to solve it. A short code example of the API you have in mind is very welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches or workarounds you have thought about.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have searched the existing issues and this feature has not been requested yet.
+          required: true
+        - label: I agree to follow this project's code of conduct.
+          required: true
