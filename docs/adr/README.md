@@ -22,3 +22,7 @@ Accepted ADRs are not rewritten. To change a decision, write a new ADR and mark 
 | ADR | Title | Status |
 | --- | --- | --- |
 | [0001](0001-record-architecture-decisions.md) | Record architecture decisions | Accepted |
+| [0002](0002-compile-python-components-to-javascript.md) | Compile Python components to JavaScript | Accepted |
+| [0003](0003-fine-grained-reactivity-with-signals.md) | Use fine-grained reactivity with signals instead of a virtual DOM | Accepted |
+| [0004](0004-internal-python-dsl.md) | Use an internal Python DSL as the only authoring format | Accepted |
+| [0005](0005-compiler-intermediate-representation.md) | Compile through an intermediate representation | Accepted |
