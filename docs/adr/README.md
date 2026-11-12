@@ -26,3 +26,6 @@ Accepted ADRs are not rewritten. To change a decision, write a new ADR and mark 
 | [0003](0003-fine-grained-reactivity-with-signals.md) | Use fine-grained reactivity with signals instead of a virtual DOM | Accepted |
 | [0004](0004-internal-python-dsl.md) | Use an internal Python DSL as the only authoring format | Accepted |
 | [0005](0005-compiler-intermediate-representation.md) | Compile through an intermediate representation | Accepted |
+| [0006](0006-repository-layout.md) | Keep the Python package at the root and the runtime in its own folder | Accepted |
+| [0007](0007-single-version-for-both-packages.md) | Release the Python and npm packages with a single version | Accepted |
+| [0008](0008-npm-with-pinned-nodejs.md) | Manage the runtime with npm and a pinned Node.js version | Accepted |
