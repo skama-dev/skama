@@ -29,3 +29,7 @@ Accepted ADRs are not rewritten. To change a decision, write a new ADR and mark 
 | [0006](0006-repository-layout.md) | Keep the Python package at the root and the runtime in its own folder | Accepted |
 | [0007](0007-single-version-for-both-packages.md) | Release the Python and npm packages with a single version | Accepted |
 | [0008](0008-npm-with-pinned-nodejs.md) | Manage the runtime with npm and a pinned Node.js version | Accepted |
+| 0009 | License Skama under the Apache License 2.0 | Accepted |
+| 0010 | Adopt Contributor Covenant 3.0 and project-owned reporting channels | Accepted |
+| 0011 | Register skama.org on Cloudflare Registrar | Accepted |
+| 0012 | Reserve the package names with a single manual bootstrap release | Accepted |
