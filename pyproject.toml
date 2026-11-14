@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "skama"
+version = "0.0.1"
+description = "Write your frontend in Python. Skama compiles it to lightweight JavaScript."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [{ name = "Javier Blanco" }]
+keywords = ["frontend", "compiler", "javascript", "reactivity", "signals"]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Programming Language :: Python :: 3.15",
+  "Topic :: Software Development :: Compilers",
+  "Typing :: Typed",
+]
+
+[project.urls]
+Repository = "https://github.com/skama-dev/skama"
+Issues = "https://github.com/skama-dev/skama/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/skama"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-ra", "--strict-markers", "--strict-config", "--import-mode=importlib"]
+xfail_strict = true
+
+[tool.uv]
+required-version = ">=0.13.6"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
