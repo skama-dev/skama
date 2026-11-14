@@ -33,3 +33,4 @@ Accepted ADRs are not rewritten. To change a decision, write a new ADR and mark 
 | 0010 | Adopt Contributor Covenant 3.0 and project-owned reporting channels | Accepted |
 | 0011 | Register skama.org on Cloudflare Registrar | Accepted |
 | 0012 | Reserve the package names with a single manual bootstrap release | Accepted |
+| 0013 | Support the Python versions maintained by CPython and pin the development versions | Accepted |
