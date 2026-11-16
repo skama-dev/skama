@@ -36,3 +36,4 @@ Accepted ADRs are not rewritten. To change a decision, write a new ADR and mark 
 | 0013 | Support the Python versions maintained by CPython and pin the development versions | Accepted |
 | 0014 | Manage the Python project with uv and build it with hatchling | Accepted |
 | 0015 | Lint and format with Ruff and type check with mypy in strict mode | Accepted |
+| 0016 | Run the checks with pre-commit before every commit | Accepted |
