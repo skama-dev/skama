@@ -38,3 +38,4 @@ Accepted ADRs are not rewritten. To change a decision, write a new ADR and mark 
 | 0015 | Lint and format with Ruff and type check with mypy in strict mode | Accepted |
 | 0016 | Run the checks with pre-commit before every commit | Accepted |
 | 0017 | Run CI in a single GitHub Actions workflow with an aggregate result | Accepted |
+| 0018 | Lint GitHub Actions workflows with actionlint and zizmor | Accepted |
