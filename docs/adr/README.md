@@ -40,3 +40,4 @@ Accepted ADRs are not rewritten. To change a decision, write a new ADR and mark 
 | 0017 | Run CI in a single GitHub Actions workflow with an aggregate result | Accepted |
 | 0018 | Lint GitHub Actions workflows with actionlint and zizmor | Accepted |
 | 0019 | Protect main with a repository ruleset | Accepted |
+| 0020 | Keep dependencies up to date with Dependabot | Accepted |
